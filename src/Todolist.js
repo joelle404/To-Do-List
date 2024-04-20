@@ -1,6 +1,6 @@
 import React from 'react';
 import Todoitem from "./Todoitem"; // Import Todoitem without curly braces
-
+import './App.css';
 function Todolist(props) {
   // Check if props.list is an array
   if (!Array.isArray(props.list)) {
